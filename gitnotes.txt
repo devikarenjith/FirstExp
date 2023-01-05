@@ -1,3 +1,5 @@
+--> repository - the container which we are tracking
+
 --> to convert a folder to a git repository use
 	$git init
 	what we see inside the folder remains all same it is just that the tracking can be done
