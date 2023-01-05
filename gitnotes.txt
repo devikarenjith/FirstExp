@@ -1,2 +1,8 @@
-this is version 1 of my project
-added second line
+--> to convert a folder to a git repository use
+	$git init
+	what we see inside the folder remains all same it is just that the tracking can be done
+
+--> whenever any change is made in the repository created we have to do the following things
+	$git add --a
+	$git commit -m "Message"
+	
