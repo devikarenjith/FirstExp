@@ -15,4 +15,16 @@
 	committed - those files in stagged state when committed moves to commit state ie. their snapshot has been saved now
 	
 --> if on giving git status, if we get green coloured things then it means that those are files in stagged state which has not been committed. Once committed they move out of the stagged state
+	if it comes in red colour then it means that those files are not present in stagged state but are being tracked
+	
 --> if we don't want git to ignore some files (not even care about its presence) then make a file .gitignore and then type the names of the files to be ignored
+
+--> if we want to ignore all files of a particular extension eg all .log files then inside .gitignore write *.log
+	in case of directory write directoryname/
+
+--> git by default ignores blank folders (doesn't even bother its presence)
+
+--> git diff command
+	shows the difference between files in stagging state to its current version in working directory
+
+
