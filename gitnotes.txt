@@ -13,3 +13,6 @@
 	stagged - those files which has been given 'git add' command. If u give commit then the version of the file while doing git add will be snapshotted
 	modified - a file is in stagged region. Now changes are made to it. So the unchanged version remains in the stagged state and the changed version comes to modified state. If a git commit is done, the unchanged version is committed. Before committing, if git add is given the old version in stagged region gets replaced with the new one and there wont be any memory of the old one.
 	committed - those files in stagged state when committed moves to commit state ie. their snapshot has been saved now
+	
+--> if on giving git status, if we get green coloured things then it means that those are files in stagged state which has not been committed. Once committed they move out of the stagged state
+--> if we don't want git to ignore some files (not even care about its presence) then make a file .gitignore and then type the names of the files to be ignored
