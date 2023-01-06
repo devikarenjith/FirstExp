@@ -8,4 +8,8 @@
 	$git add --a
 	$git commit -m "Message"	
 
---> WIT: 
+--> WIT: Think that there are four regions - untracked, modified, stagged, committed
+	untracked - those files whose contents are unknown to git. It knows that such a file exists but if any changes are made then it cannot recognize that a change has been made.
+	stagged - those files which has been given 'git add' command. If u give commit then the version of the file while doing git add will be snapshotted
+	modified - a file is in stagged region. Now changes are made to it. So the unchanged version remains in the stagged state and the changed version comes to modified state. If a git commit is done, the unchanged version is committed. Before committing, if git add is given the old version in stagged region gets replaced with the new one and there wont be any memory of the old one.
+	committed - those files in stagged state when committed moves to commit state ie. their snapshot has been saved now
