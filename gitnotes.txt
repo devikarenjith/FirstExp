@@ -7,3 +7,5 @@
 --> whenever any change is made in the repository created we have to do the following things
 	$git add --a
 	$git commit -m "Message"	
+
+--> WIT: 
