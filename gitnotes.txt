@@ -25,6 +25,12 @@
 --> git by default ignores blank folders (doesn't even bother its presence)
 
 --> git diff command
-	shows the difference between files in stagging state to its current version in working directory
+	shows the difference between files in staged state to its current version in working directory
+	
+--> to show the difference between files in staged state and its previously committed version, use the following command
+	git diff --staged
+	
+--> to commit all the tracked files without putting them into stagging state (direct commit), use the following command
+	git commit -a -m "Message"
 
 
