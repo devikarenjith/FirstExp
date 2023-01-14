@@ -58,7 +58,13 @@
 	
 --> suppose you have committed a file and then you modified it(now it is not even in the staged state), if you want to go back to that file when committed, use
 	git checkout -- filename
+	remember - all the freshly made changes will be lost forever
 	
 --> in the above point, if after modification you put it into the stagged state, then on running the above command nothing happens
+
+--> in case you have to revert back all your files to the previous commit use
+	git checkout -f
+	remember - all the freshly made changes will be lost forever
+
 
 
