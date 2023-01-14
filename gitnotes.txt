@@ -32,5 +32,33 @@
 	
 --> to commit all the tracked files without putting them into stagging state (direct commit), use the following command
 	git commit -a -m "Message"
+	
+--> to rename a tracking file
+	git mv oldname newname
+	
+--> to delete a tracking file
+	git rm filename
+	
+--> to untrack a tracking file
+	git rm --cached filename
+	
+--> to see what changes happened in a commit
+	git log -p
+	
+--> to see the above changes in different ways
+	git log --pretty=oneline
+	git log --pretty=short
+	git log --pretty=full
+	
+--> to see the commits in last two days
+	git log --since=2.days
+	
+--> to ammend a commit
+	git commit --amend
+	
+--> suppose you have committed a file and then you modified it(now it is not even in the staged state), if you want to go back to that file when committed, use
+	git checkout -- filename
+	
+--> in the above point, if after modification you put it into the stagged state, then on running the above command nothing happens
 
 
